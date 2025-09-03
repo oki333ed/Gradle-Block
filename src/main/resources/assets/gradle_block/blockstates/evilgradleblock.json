@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gradle_block:block/evilgradleblock"
+    }
+  }
+}

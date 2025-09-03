@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "gradle_block:block/white",
+    "top": "gradle_block:block/white",
+    "side": "gradle_block:block/evil_gradle",
+    "overlay": "gradle_block:block/evil_gradle",
+    "particle": "gradle_block:block/white"
+  },
+  "render_type": "cutout_mipped"
+}

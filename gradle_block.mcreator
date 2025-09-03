@@ -1,0 +1,117 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gradleblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gradleblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gradle_block/blockstates/gradleblock.json",
+          "src/main/resources/assets/gradle_block/models/item/gradleblock.json",
+          "src/main/resources/assets/gradle_block/items/gradleblock.json",
+          "src/main/resources/data/gradle_block/loot_table/blocks/gradleblock.json",
+          "src/main/java/rf/gd/cmds/gradle_block/block/GradleblockBlock.java",
+          "src/main/resources/assets/gradle_block/models/block/gradleblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Evilgradleblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilgradleblock",
+      "metadata": {
+        "files": [
+          "src/main/java/rf/gd/cmds/gradle_block/block/EvilgradleblockBlock.java",
+          "src/main/resources/assets/gradle_block/models/item/evilgradleblock.json",
+          "src/main/resources/assets/gradle_block/models/block/evilgradleblock.json",
+          "src/main/resources/assets/gradle_block/items/evilgradleblock.json",
+          "src/main/resources/assets/gradle_block/blockstates/evilgradleblock.json",
+          "src/main/resources/data/gradle_block/loot_table/blocks/evilgradleblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Gradletab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gradletab",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Evilgradleblock",
+      "~CUSTOM:Gradleblock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.gradle_block.evilgradleblock": "Evil Gradle",
+      "item_group.gradle_block.gradletab": "Gradle Tab",
+      "item.gradle_block.gradleblock": "Gradle"
+    },
+    "ru_ru": {
+      "item.gradle_block.evilgradleblock": "Злой Gradle",
+      "item_group.gradle_block.gradletab": "Gradle Вкладка",
+      "item.gradle_block.gradleblock": ""
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/BoneMealItemMixin.java",
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/BlockItemMixin.java",
+      "src/main/java/rf/gd/cmds/gradle_block/event/LivingEntityEvents.java",
+      "src/main/java/rf/gd/cmds/gradle_block/event/BlockEvents.java",
+      "src/main/java/rf/gd/cmds/gradle_block/event/ItemEvents.java",
+      "src/main/resources/gradle_block.mixins.json",
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/CommandsMixin.java",
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/LivingEntityMixin.java",
+      "src/main/java/rf/gd/cmds/gradle_block/GradleBlockModClient.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/ExperienceOrbMixin.java",
+      "src/main/java/rf/gd/cmds/gradle_block/GradleBlockMod.java",
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/ItemStackMixin.java",
+      "src/main/java/rf/gd/cmds/gradle_block/init/GradleBlockModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/PlayerMixin.java",
+      "src/main/java/rf/gd/cmds/gradle_block/event/PlayerEvents.java",
+      "src/main/resources/META-INF/gradle_block.accesswidener",
+      "src/main/java/rf/gd/cmds/gradle_block/event/MiscEvents.java",
+      "src/main/java/rf/gd/cmds/gradle_block/init/GradleBlockModBlocks.java",
+      "src/main/java/rf/gd/cmds/gradle_block/init/GradleBlockModBlocksRenderers.java",
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/ServerPlayerMixin.java",
+      "src/main/java/rf/gd/cmds/gradle_block/init/GradleBlockModItems.java",
+      "src/main/java/rf/gd/cmds/gradle_block/mixin/GradleBlockModRepairItemRecipeMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gradle_block",
+    "modName": "Gradle Block",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "modElementsPackage": "rf.gd.cmds.gradle_block"
+  },
+  "mcreatorVersion": 202500333716
+}

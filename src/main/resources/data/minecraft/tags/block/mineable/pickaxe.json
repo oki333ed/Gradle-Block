@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "gradle_block:evilgradleblock",
+    "gradle_block:gradleblock"
+  ]
+}

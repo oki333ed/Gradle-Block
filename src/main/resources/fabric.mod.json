@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "gradle_block",
+  "version": "1.0.0",
+  "name": "Gradle Block",
+  "authors": [
+    "CMDs"
+  ],
+  "contact": {
+    "sources": "https://github.com/oki333ed/Gradle-Block"
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "rf.gd.cmds.gradle_block.GradleBlockMod"
+    ],
+    "client": [
+      "rf.gd.cmds.gradle_block.GradleBlockModClient"
+    ]
+  },
+  "mixins": [
+    "gradle_block.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "gradle_block": "*"
+  }
+}
